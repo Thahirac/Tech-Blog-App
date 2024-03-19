@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "2607735072",
+    "project_id": "blogapp-9c897",
+    "storage_bucket": "blogapp-9c897.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2607735072:android:1b5b8008b97e04b6b0f745",
+        "android_client_info": {
+          "package_name": "com.example.tech_blog_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAxGISCZDQBVcNIZ5fbUPHnRFCOQou6bI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
