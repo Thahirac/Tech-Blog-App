@@ -25,8 +25,7 @@ class _HomePageState extends State<HomePage> {
               child: StreamBuilder(
                 stream: blogsStream,
                 builder: (context, snapshot) {
-                  print('********************start');
-
+              
                   if (!snapshot.hasData) {
                     return Center(
                         child: Container(
@@ -191,7 +190,6 @@ class BlogsTile extends StatelessWidget {
               children: [
                 IconButton(
                     onPressed: () {
-                      print('******************$id');
                       Navigator.push(context,
                           MaterialPageRoute(builder: (context) => UpdateBlog(id:id,authorName: authorName,title: title,desc: description,imgUrl: imgUrl,selectedDate: DateTime.parse(date),)));
 
@@ -204,8 +202,7 @@ class BlogsTile extends StatelessWidget {
                     )),
                 IconButton(
                     onPressed: () {
-                      print('******************$id');
-
+              
                       crudMethods.deleteBlog(id);
                     },
                     icon: const Icon(
